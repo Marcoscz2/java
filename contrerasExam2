@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class GolfLessonCalculator
+{
+  public static void main(String[] args
+  {
+  Scanner scanner = new Scanner(System.in);
+  String membershipType;
+  double baseCost;
+  int freeLessons;
+  double hourlyRate;
+  displayMembershipInfo(membershipType, freeLessons, hourlyRate, base,Cost);
+
+  double totalLessonCharges = 0;
+  int totalLessonsBooked = 0;
+  int totalHours = 0;
+
+  while (true)
